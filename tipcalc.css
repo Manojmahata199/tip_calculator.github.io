@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main-div{
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-div{
+    max-width: 500px;
+    height: auto;
+    background-color: black;
+    padding: 50px;
+    box-shadow: 4px 4px 20px 10px white;
+    border-radius: 25px;
+    color: white;
+}
+.center-div h3{
+    margin-bottom: 15px;
+    margin-top: -25px;
+    text-decoration: underline;
+    font-size: 32px;
+    color: blue;
+    
+}
+.small-div label{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.small-div input{
+    font-size: 25px;
+    margin-bottom: 10px;
+    width: 400px;
+
+}
+.small-div button{
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+}
+#Tip-amount{
+    color: green;
+}
+#Total-amount{
+    color: blue;
+}
